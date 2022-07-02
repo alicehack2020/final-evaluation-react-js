@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.poster{
+    width: 20rem;
+}
+.movie_div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+     
+}
+
+.moreDetails{
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+    font-size: larger;
+    border: none;
+    background-color: aqua; 
+
+}
+.moreDetails:hover{
+    cursor: pointer;
+}
